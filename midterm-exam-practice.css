@@ -1,2 +1,5 @@
 * {background:purple;}
 .container {background: white;}
+.left-column p {
+  margin-top: 0;
+  margin-bottom: 0;} 
