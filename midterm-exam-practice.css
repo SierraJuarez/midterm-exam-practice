@@ -20,7 +20,9 @@ body {background:purple;}
   margin-bottom: 0px;
 }
 h1 {
-  font-size: 35px;
+  font-size: 35px
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .container {
   max-width: 900px;
@@ -28,7 +30,10 @@ h1 {
 }
 .left-column {
   float: left; width: 25%;
+  padding-left: 10px;
 }
 .right-column {float: right;
-  width: 75%;}
+  width: 75%;
+  padding-right: 10px;}
+  img {margin: 0 auto;}
 *box-sizing: border-box;
