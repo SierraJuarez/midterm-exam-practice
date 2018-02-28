@@ -23,16 +23,44 @@ h1 {
   font-size: 35px
   padding-left: 15px;
   padding-right: 15px;
+  border: 2px;/* #1 make it 2 px thick*/
+  border: dotted;/* #2 make it dotted*/
+  font-variant: small-caps;/* #3 make it small caps*/
+  font-family: Arial; /* #4 made headline arial*/
+  box-shadow: 2px 6px; /* #5 add a box shadow*/
+  text-decoration: underline; /* #6 add a box shadow*/
+  opacity: 0.3; /* #7 made it more opaque*/
 }
 .container {
   max-width: 900px;
   margin: auto;
+  word-spacing: 5px;/* #8 increase word spacing*/
 }
-@media (max-width: 500px;) {.left-column {
+.right-column p:nth-child(3) {
+  font-size: 25px;/* #9 increase font size*/
+  color: purple; /* #10 changing text to color*/
+  font-weight: bold; /* #11 bolding text*/
+}
+.right-column p:nth-child(9){
+  font-size:
+}
+.publish {
+  font-style: oblique; /* #12 made it oblique*/
+  text-transform: lowercase;} /* #13 make everything lowercase*/
+  .caption {font-family: serif; /* #14 change font*/
+  text-transform: uppercase;} /* #15 make captions uppercase*/
+@media (min-width: 500px) {.left-column {
   float: left; width: 25%;
   padding-left: 10px;
 }
 .right-column {float: right;
   width: 75%;
-  padding-right: 10px;}}
+  padding-right: 10px;}
+  .surf {
+    display: block; /* #16 change display to block*/
+    margin-left: auto; /* #17 change left margin*/
+    margin-right: auto; /* #18 change right margin*/
+    width: 50%; /* #19 make width smaller*/
+    border: 2px solid; /* #20 border on image*/
+  }}
 *box-sizing: border-box;
