@@ -28,12 +28,11 @@ h1 {
   max-width: 900px;
   margin: auto;
 }
-.left-column {
+@media (max-width: 500px;) {.left-column {
   float: left; width: 25%;
   padding-left: 10px;
 }
 .right-column {float: right;
   width: 75%;
-  padding-right: 10px;}
-  img {margin: 0 auto;}
+  padding-right: 10px;}}
 *box-sizing: border-box;
